@@ -1,0 +1,207 @@
+{% extends 'portfolio/base.html' %}
+
+{% load static %}
+{% block title %}
+Abhishek Pandey
+{% endblock  %}
+{% block content %}
+<section>
+  <div class="container">
+    <!-- layout-->
+    <div class="row mt-2 mb-2 pt-2 pb-3 justify-content-center">
+
+      <div class="col-md-6 col-lg-6 mx-auto">
+        <img src="{% static 'image/img2.png' %}" alt="ASD" class="img-fluid" data-aos="fade-right" data-aos-delay="500">
+      </div>
+      <div class="col-md-6 col-lg-6 mt-5  pb-5 pt-5 mr-auto rounded" data-aos="zoom-in-up" data-aos-delay="100">
+        <h1>Hello World!,</h1>
+        <div class="display-3"><span>I'm</span> Abhishek Pandey</div>
+        <p class="mt-3"><span class="bold">Web Developer, </span> <br><br> " You don’t always need a plan. Because
+          sometimes all you need is to take a long breath and let it go."</p>
+        <div class="mt-3 pt-4">
+          <a href="https://www.facebook.com/profile.php?id=100008140506566" class="btn shadow-lg"><i
+              class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/abhhishek_17/" class="btn shadow-lg"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCSwcO46fZINr7ybEHtOjjVQ" class="btn shadow-lg"><i
+              class="fab fa-youtube"></i></a>
+          <a href="https://github.com/Abhisekpndy17" class="btn shadow-lg"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/IimtAbhishek" class="btn shadow-lg"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <!--end layout-->
+    <!--card-->
+
+    <div class="row mt-5">
+      <div class="col-md-4" data-aos="zoom-in-up" data-aos-delay="100">
+        <div class="card shadow-lg">
+          <img src="{% static 'image/img1.png' %}" alt="" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title">Web Development</h3>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam perferendis voluptatem
+              eaque voluptatibus mollitia! Voluptatibus sed fugit ducimus accusantium ipsa.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="zoom-in-up" data-aos-delay="300">
+        <div class="card shadow-lg">
+          <img src="{% static 'image/img2.png' %}" alt="" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title">Responsive Design</h3>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam perferendis voluptatem
+              eaque voluptatibus mollitia! Voluptatibus sed fugit ducimus accusantium ipsa.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="zoom-in-up" data-aos-delay="100">
+        <div class="card shadow-lg">
+          <img src="{% static 'image/img5.png' %}" alt="" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title">Python & JavaScript</h3>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam perferendis voluptatem
+              eaque voluptatibus mollitia! Voluptatibus sed fugit ducimus accusantium ipsa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end card-->
+
+    <section class="site-section mt-5" id="about-section">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0" data-aos="zoom-in-up" data-aos-delay="0">
+            <div class="img-wrap">
+              <img src="{% static 'image/abhi1.jpg' %}" alt="Image placeholder" class="img-fluid  shadow-lg rounded">
+            </div>
+          </div>
+          <div class="col-lg-5 pl-lg-5" data-aos="zoom-in-up" data-aos-delay="100">
+            <div class="section-heading">
+              <h2>My Bio</h2>
+            </div>
+            <p>I’m a <span class="highlight">web developer. </span>I spend my whole day, practically every day, experimenting with HTML, CSS, and
+              JavaScript; dabbling with Python; and inhaling a wide variety of potentially useless information
+              through a few hundred RSS feeds. I build websites that delight and inform.</p>
+              <p>I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different
+                direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges
+                with tools well suited to the job at hand</p>
+            <div class="my-5">
+              <div class="skill">
+                <h3>Design</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span>85%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill">
+                <h3>HTML5</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span>90%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill">
+                <h3>CSS3</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 87%" aria-valuenow="87" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span>87%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span>60%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill">
+                <h3>Python</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span>55%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill">
+                <h3>Flask</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span>65%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill">
+                <h3>Django</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span>55%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill">
+                <h3>Bootstrap</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span>82%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p>
+              <a href="#contact-section" class="btn btn-primary smoothscroll">Hire Me</a>
+              <a href="#" class="btn btn-secondary shadow-lg rounded">Download CV</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--about-->
+    <div class="row mt-2 mb-2 pt-2 pb-3 justify-content-center">
+      <div class="col-md-6 col-lg-6 mx-auto">
+        <img src="{% static 'image/img6.png' %}" alt="ASD" class="img-fluid" data-aos="zoom-in-up" data-aos-delay="500">
+      </div>
+      <div class="col-md-6 col-lg-6 pt-5 mr-auto rounded " data-aos="zoom-in" data-aos-delay="100">
+        <div class="display-3">About us</div>
+        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, id.</p>
+        <h1>Education :</h1>
+        <ul>
+          <li>Master of Computer Application (MCA)</li>
+          <li>75 %</li>
+        </ul>
+        <ul>
+          <li>Bachlore of Computer Application (BCA)</li>
+          <li>70 %</li>
+        </ul>
+        <ul>
+          <li>Intermediate (12<sup>th</sup>)</li>
+          <li>60 %</li>
+        </ul>
+        <ul>
+          <li>High School (10<sup>th</sup>)</li>
+          <li>76 %</li>
+        </ul>
+        <div class="mt-3 pt-4">
+          <a href="" class="btn shadow-lg"><i class="fab fa-facebook-f"></i></a>
+          <a href="" class="btn shadow-lg"><i class="fab fa-instagram"></i></a>
+          <a href="" class="btn shadow-lg"><i class="fab fa-youtube"></i></a>
+          <a href="" class="btn shadow-lg"><i class="fab fa-github"></i></a>
+          <a href="" class="btn shadow-lg"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <!--endabout-->
+  </div>
+</section>
+
+{% endblock  %}
