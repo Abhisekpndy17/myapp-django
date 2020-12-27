@@ -8,18 +8,18 @@
     <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
             <div class="col-md-10 col-lg-10 col-xl-10 mx-auto mt-3" data-aos="zoom-in" data-aos-delay="100">
-                <div class="card mt-3 mb-3 border-primary">
-                    <div class="card-header display-6">
-                        {{post.title}}
-                    </div>
-                    <div class="card-body">
-                        <small class="text-muted">Posted at {{post.date_added}}</small>
-                        <blockquote class="blockquote mb-0 mt-2 p-3">
-                            <h3 class="text-weight-bold">{{post.intro | safe }}</h3>
-                            <p>{{post.body | safe }}</p>
-                        </blockquote>
-                    </div>
-                </div>
+
+                <section class="mb-3 pb-3">
+                    <h1 class="fw-bold"><i class="fas fa-book-reader"></i> {{post.title}}</h1>
+                    <p class="text-muted">Posted at <i class="fas fa-calendar-week"></i> {{post.date_added}}</p>
+                    <blockquote class="blockquote mb-0">
+                      <p class="font-monospace text-muted"><i class="fab fa-battle-net"></i>{{post.intro | safe }}</p>
+                      <i class="fab fa-battle-net"></i>
+                      <p>{{post.body | safe }}</p>
+                    </blockquote>
+                    <hr>
+                  </section>
+                
             </div>
             
         </div>
