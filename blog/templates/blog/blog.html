@@ -10,7 +10,7 @@ Abhishek || blogs
       <div class="col-md-10 col-lg-10 col-xl-10 mx-auto mt-3" data-aos="zoom-in" data-aos-delay="100">
         {% for post in posts %}
         <section class="mb-3 pb-3">
-          <h1 class="fw-bold"><i class="fab fa-audible"></i> {{post.title}}</h1>
+          <h3 class="fw-bold"><i class="fab fa-audible"></i> {{post.title}}</h3>
           <p class="text-muted">Posted at <i class="fas fa-calendar-week"></i> {{post.date_added}}</p>
           <blockquote class="blockquote mb-0">
             <p class="font-monospace">{{post.intro | safe }}</p>
